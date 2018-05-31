@@ -1,0 +1,91 @@
+---
+title: "Student Performance Dataset"
+output: html_notebook
+---
+
+Classificar, a partir do conjunto de treino, se o aluno foi aprovado naquele ano letivo (atributo
+“approved” do dataset)
+
+Garantindo que o nosso ambiente será zerado
+```{r}
+rm(list = ls())
+```
+
+Carregando dependências
+```{r}
+library(randomForest)
+library(rpart)
+library(rpart.plot)
+```
+
+
+
+Carregando dados de treino e validação
+```{r}
+trainData <- read.csv("student_performance_train.data")
+valData <- read.csv("student_performance_test.data")
+```
+
+
+Inpecionando dados de treino
+```{r}
+print(summary(trainData))
+```
+
+Função para calcular Acurácia Normalizada
+```{r}
+calcAccNorm <- function(data, predicted) {
+  rfCM = as.matrix(table(Actual = data, Predicted = predicted))
+  
+  print(rfCM)
+  rfTPR = rfCM[2,2] / (rfCM[2,2] + rfCM[2,1])
+  rfTNR = rfCM[1,1] / (rfCM[1,1] + rfCM[1,2])
+  rfACCNorm = mean(c(rfTPR, rfTNR))
+  
+  rfACCNorm
+}
+```
+
+
+TREE MODEL
+```{r}
+treeModel <- rpart(formula = approved ~ ., 
+                   data = trainData, 
+                   method = "class",
+                   parms =list(split="gini"))
+rpart.plot(treeModel)
+
+
+prediction = predict(treeModel, valData)
+prediction = as.numeric(prediction[,"1"] >= 0.5)
+prediction[prediction==0] = "0"
+prediction[prediction==1] = "1"
+calcAccNorm(valData$approved,prediction)
+```
+
+Base line RANDOM FOREST MODEL
+```{r}
+runRandomForest <- function (trees) {
+  trainData$approved <- as.factor(trainData$approved)
+  rfModel = randomForest(formula=approved ~ ., data= trainData, ntree=trees)
+  rfPrediction = predict(rfModel, valData) 
+  calcAccNorm(valData$approved,rfPrediction)
+}
+
+message("Random Forest with 10 trees: ", runRandomForest(10))
+```
+
+Verificando se o dataset está balanceado
+```{r}
+print(table(trainData$approved))
+```
+
+O dataset está balanceado.
+
+Adicionando mais arvores:
+```{r}
+message("Random Forest with 20 trees: ", runRandomForest(20))
+message("Random Forest with 50 trees: ", runRandomForest(50))
+message("Random Forest with 500 trees: ", runRandomForest(500))
+```
+
