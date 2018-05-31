@@ -1,0 +1,246 @@
+---
+title: "Trabalho INF-0613"
+output: html_notebook
+---
+
+### Anderson Rocha e Alexandre Guidin
+
+### Comandos Iniciais - Pacote e Bibliotecas
+```{r}
+#install.packages("factoextra")
+#install.packages("flexclust")
+#install.packages("cluster")
+#install.packages("ngram")
+#options(max.print = 9000)
+#setwd("/home/alexandre.guidin/Desktop/mdc")
+#setwd("C:\\Users\\Alexandre-PC\\Desktop")
+setwd("/home/anderson/DataScience/Unicamp/INF-0613/Projeto")
+library(cluster)
+library(factoextra)
+library(flexclust)
+library(cluster)
+library(ngram)
+library(ggplot2)
+library(knitr)
+
+startTime <- Sys.time()
+```
+
+---
+
+### Leitura dos arquivos
+```{r}
+samplePercentage <- 10
+
+message("Leitura dos arquivos, e separando uma amostra com ", samplePercentage , "% dos dados")
+
+features <- read.csv("features.csv", header = T, sep = ",")
+headlines <- read.csv("headlines.csv", header = T, sep = ",", stringsAsFactors = F)
+message("Número de Linhas: ", dim(features)[1])
+message("Número de Features: ", dim(features)[2])
+
+sampleSize <- dim(features)[1] * (samplePercentage / 100)
+sampleIndex <- sample(1:nrow(features), sampleSize)
+data <- features[sampleIndex,]
+data.headlines <- headlines[sampleIndex,]
+```
+
+---
+
+
+### Calculado o PCA e reduzindo a dimensionalidade sem normalização
+```{r}
+pcaSize <- 1:(dim(features)[2])
+data.pca <- prcomp(data, scale. = F)
+
+cp <- cumsum(data.pca$sdev^2 / sum(data.pca$sdev^2))
+cp.90 <- which(cp >= 0.9)[1]
+cp.85 <- which(cp >= 0.85)[1]
+message("Index da feature com 85% de proporcao cumulativa: ", cp.85)
+message("Index da feature com 90% de proporcao cumulativa: ", cp.90)
+
+data.reduced <- data.pca$x[,1:cp.85]
+message("Número de linhas reduzido: ", dim(data.reduced)[1])
+message("Número de features reduzido: ", dim(data.reduced)[2])
+```
+
+---
+
+#### <span style="color:blue">Como o uso de normalização (parâmetro scale do prcomp) antes de efetuar o PCA afeta os resultados?</span>
+```{r}
+result = tryCatch({
+    data.pca.scaled <- prcomp(data, scale. = T)
+}, warning = function(warning_condition) {
+    message(warning_condition)
+}, error = function(error_condition) {
+    message(error_condition)
+}, finally={
+    # Do nothing
+})
+```
+#### <span style="color:green">Não é possível usar o parametro scale, obtemos um erro.</span>
+
+---
+
+
+#### <span style="color:blue">Com quantas componentes principais conseguimos preservar 85% da variância dos dados? E 90%? Para os itens seguintes, escolha entre preservar 85% e 90% da variância e utilize os dados apenas com tais componentes principais.</span>
+
+#### <span style="color:green">A escolha foi de preservar 85% da variância.</span>
+
+---
+
+### Definicao do número de clusters
+#### variando o k de 4 a 20.
+```{r}
+maxClusters <- 20
+iterations <- 4:maxClusters
+```
+
+---
+
+### Plot da silhueta e erro quadrático
+```{r}
+plotHelper <- function(values, silPlot = F){
+  yLabel <- ifelse(silPlot, "Average Silhouette Width", "Total Within Sum of Square")
+  
+  d <- data.frame(k=iterations, y = values)
+  p <- ggpubr::ggline(d, x = "k", y = "y", group = 1,
+                      color = "steelblue", ylab = yLabel,
+                      xlab = "Number of clusters k",
+                      main = "Optimal number of clusters")
+  
+  xInterceptValue <- ifelse(silPlot, (which.max(values) + 3), (which.min(values) + 3))
+  p <- p + scale_x_continuous("Number of clusters k", labels = as.character(iterations), breaks = iterations)
+  p <- p + geom_vline(xintercept = xInterceptValue, linetype=2, color = "steelblue")
+  p
+}
+
+data.reduced.dist <- dist(data.reduced)
+```
+
+---
+
+
+
+### KMEANS
+```{r}
+kmeans.data <- lapply(iterations, function(i){ kmeans(data.reduced, i) })
+kmeans.wss.data <- sapply(kmeans.data, function(r){ r$tot.withinss })
+kmeans.sil.data <- sapply(kmeans.data, function(r){ mean(silhouette(r$cluster, data.reduced.dist)[,3]) })
+plotHelper(kmeans.wss.data)
+plotHelper(kmeans.sil.data, silPlot = T) 
+```
+
+---
+
+### KMEDIANS
+```{r}
+kmedians.data <- sapply(iterations, function(i){ kcca(data.reduced, i) })
+kmedians.wss.data <- sapply(kmedians.data, function(r){ info(r,"distsum") })
+kmedians.sil.data <- sapply(kmedians.data, function(r){ mean(silhouette(r@cluster, data.reduced.dist)[,3]) })
+plotHelper(kmedians.wss.data)
+plotHelper(kmedians.sil.data, silPlot = T) 
+```
+
+---
+
+### KMEDOIDS
+Esse é o algoritmo que mais demora a executar. No teste de 100% dos dados, ele foi desabilitado
+```{r}
+kmedoids.data <- lapply(iterations, function(i){ pam(data.reduced, i) })
+kmedoids.wss.data <- sapply(kmedoids.data, function(r){ mean(r$objective) })
+kmedoids.sil.data <- sapply(kmedoids.data, function(r){ r$silinfo$avg.width })
+plotHelper(kmedoids.wss.data)
+plotHelper(kmedoids.sil.data, silPlot = T) 
+```
+
+---
+
+### Consideramos a silhueta do KMEANS como melhor resultado
+```{r}
+optimalClusters <- which.max(kmeans.sil.data)
+message("Após olhar nos gráficos chega-se à conclusão que ", optimalClusters + 3, " clusters é o melhor resultado")
+```
+
+---
+
+
+### Cálculo dos bigramas
+```{r}
+data.headlines$cluster <- kmeans.data[[optimalClusters]]$cluster
+```
+
+---
+
+
+### Bigramas
+```{r echo = FALSE, results = 'asis'}
+data.headlines <- data.headlines[sapply(data.headlines$headline_text, function(t) { length(strsplit(t, " ")[[1]])}) > 1,]
+data.headlines$ng <- sapply(data.headlines$headline_text, function(t) { list(get.phrasetable(ngram(t, n=2))$ngrams) })
+
+data.headlines.most_frequently <- as.data.frame(do.call(rbind, lapply(iterations, function(i){ 
+  table <- sort(table(unlist(data.headlines[which(data.headlines$cluster == i),]$ng)), decreasing = T)[1:3] 
+  list(cluster=i, bigrams=names(table))
+  })))
+kable(data.headlines.most_frequently, caption = "Bigramas mais frequentes")
+```
+
+---
+
+
+### Dados de 2016
+```{r}
+data.2016 <- features[strptime(headlines$publish_date, format = "%Y%m%d")$year == 116,]
+message("Número de Linhas: ", dim(data.2016)[1])
+message("Número de Features: ", dim(data.2016)[2])
+
+data.2016.pca <- prcomp(data.2016, scale. = F)
+```
+
+---
+
+
+### Dados de 2016
+```{r}
+data.2016.cp <- cumsum(data.2016.pca$sdev^2 / sum(data.2016.pca$sdev^2))
+
+data.2016.cp.90 <- which(data.2016.cp >= 0.9)[1]
+data.2016.cp.85 <- which(data.2016.cp >= 0.85)[1]
+message("Index da feature com 85% de proporção cumulativa: ", data.2016.cp.85)
+message("Index da feature com 90% de proporção cumulativa: ", data.2016.cp.90)
+data.2016.reduced <- data.2016.pca$x[,1:data.2016.cp.85]
+
+message("Número de linhas reduzido: ", dim(data.2016.reduced)[1])
+message("Número de features reduzido: ", dim(data.2016.reduced)[2])
+
+kmeans.2016.data <- lapply(iterations, function(i){ kmeans(data.2016.reduced, i) })
+kmeans.2016.wss.data <- sapply(kmeans.data, function(r){ r$tot.withinss })
+kmeans.2016.sil.data <- sapply(kmeans.data, function(r){ mean(silhouette(r$cluster, data.reduced.dist)[,3]) })
+plotHelper(kmeans.2016.wss.data)
+plotHelper(kmeans.2016.sil.data, silPlot = T)
+
+
+timeSpend <- as.numeric(difftime(Sys.time(), startTime, unit = "secs"))
+message("Tempo gasto para execução: ", timeSpend / 60 , " minutos")
+```
+
+### Cálculo dos bigramas 2016
+```{r}
+data.2016.headlines <- headlines[strptime(headlines$publish_date, format = "%Y%m%d")$year == 116,]
+data.2016.headlines$cluster <- kmeans.2016.data[[optimalClusters]]$cluster
+```
+
+---
+
+
+### Bigramas 2016
+```{r echo = FALSE, results = 'asis'}
+data.2016.headlines <- data.2016.headlines[sapply(data.2016.headlines$headline_text, function(t) { length(strsplit(t, " ")[[1]])}) > 1,]
+data.2016.headlines$ng <- sapply(data.2016.headlines$headline_text, function(t) { list(get.phrasetable(ngram(t, n=2))$ngrams) })
+
+data.2016.headlines.most_frequently <- as.data.frame(do.call(rbind, lapply(iterations, function(i){ 
+  table <- sort(table(unlist(data.2016.headlines[which(data.headlines$cluster == i),]$ng)), decreasing = T)[1:3] 
+  list(cluster=i, bigrams=names(table))
+  })))
+kable(data.2016.headlines.most_frequently, caption = "Bigramas mais frequentes")
+```
