@@ -19,7 +19,7 @@ for line in sys.stdin:
     sensor_id = "-"
     city = "-"
     year = "-"
-    mont = "-"
+    month = "-"
     day = "-"
     hour = "-"
     minute = "-"
@@ -36,7 +36,7 @@ for line in sys.stdin:
         
         sensor_id = measurements[0:5]
         year = measurements[5:9]
-        mont = measurements[9:11]
+        month = measurements[9:11]
         day = measurements[11:13]
         hour = measurements[13:15]
         minute = measurements[15:17]
@@ -45,10 +45,9 @@ for line in sys.stdin:
         lux = measurements[23:26]
 
     else:
-        print(key_value)
         # If key value length is 2 the file is sensor-location.txt
         sensor_id = key_value[0].zfill(5)
         city = key_value[1]
 
     
-    print('%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s' % (sensor_id, city, year, mont, day, hour, minute, temperature, humidity, lux))
+    print('%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s' % (sensor_id, city, year, month, day, hour, minute, temperature, humidity, lux))
