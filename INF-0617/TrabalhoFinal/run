@@ -1,0 +1,2 @@
+hadoop fs -put measurements.txt
+hadoop fs -put sensor-location.txt
