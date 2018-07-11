@@ -1,2 +1,9 @@
+#!/usr/bin/env bash
+
+# Adiciona o arquivo measurements para o hdfs do hadoop
 hadoop fs -put measurements.txt
+# Adiciona o arquivo sensor-location para o hdfs do hadoop
 hadoop fs -put sensor-location.txt
+
+# Cria um novo arquivo que junta as informacoes dos dois arquivos, esse arquivo sera criado no hdfs com o nome measurements-vs-sensor-location
+./join.sh
