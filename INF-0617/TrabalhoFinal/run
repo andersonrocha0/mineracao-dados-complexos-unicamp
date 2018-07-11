@@ -40,3 +40,10 @@ echo Finalizado job mapreduce tarefa2
 cd ..
 echo Mudando diretorio para:
 pwd
+
+
+# Exportando arquivos
+
+hadoop fs -get item1.out/part-00000 item1.out
+hadoop fs -get item2.out/part-00000 item2.out
+hadoop fs -get item3.out/part-00000 item3.out
