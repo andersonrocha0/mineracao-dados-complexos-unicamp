@@ -28,3 +28,15 @@ cd ..
 echo Mudando diretorio para:
 pwd
 
+# Parte 2 da tarefa. Arquivo de saida item1.out
+
+cd ex2
+echo Mudando diretorio para:
+pwd
+echo Iniciando job mapreduce tarefa2
+./run.sh
+echo Finalizado job mapreduce tarefa2
+
+cd ..
+echo Mudando diretorio para:
+pwd
