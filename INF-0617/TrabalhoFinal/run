@@ -15,7 +15,7 @@ echo Iniciando job mapreduce responsavel por juntar os dados
 ./join.sh
 echo Finalizado job mapreduce responsavel por juntar os dados
 
-# Cria um novo arquivo que junta as informacoes dos dois arquivos, esse arquivo sera criado no hdfs com o nome measurements-vs-sensor-location
+# Parte 1 da tarefa. Arquivo de saida item1.out
 
 cd ex1
 echo Mudando diretorio para:
