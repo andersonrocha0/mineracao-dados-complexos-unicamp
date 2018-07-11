@@ -1,0 +1,500 @@
+01	Apr Campo Grande, MS	361
+01	Aug Guaruja, SP	239
+01	Aug Guaruja, SP	373
+01	Aug Guaruja, SP	471
+01	Brasilia, DF	067
+01	Brasilia, DF	185
+01	Brasilia, DF	297
+01	Brasilia, DF	386
+01	Campinas, SP	487
+01	Campo Grande, MS	150
+01	Campo Grande, MS	185
+01	Campo Grande, MS	325
+01	Campo Grande, MS	412
+01	Campo Grande, MS	438
+01	Campo Grande, MS	461
+01	Dec Campinas, SP	068
+01	Dec Campinas, SP	150
+01	Dec Campinas, SP	437
+01	Feb Florianopolis, SC	319
+01	Jan Campinas, SP	081
+01	Jan Campinas, SP	129
+01	Jan Campinas, SP	177
+01	Jan Campinas, SP	408
+01	Jan Campinas, SP	409
+01	Jul Ubatuba, SP	237
+01	Jul Ubatuba, SP	364
+01	Jul Ubatuba, SP	474
+01	Mar Rio de Janeiro, RJ	047
+01	Mar Rio de Janeiro, RJ	187
+01	May Paranavai, PR	475
+01	Nov Sao Paulo, SP	119
+01	Nov Sao Paulo, SP	143
+01	Nov Sao Paulo, SP	355
+01	Nov Sao Paulo, SP	394
+01	Nov Sao Paulo, SP	458
+01	Oct Brasilia, DF	195
+01	Oct Brasilia, DF	453
+01	Paranavai, PR	014
+01	Paranavai, PR	355
+02	Apr Campo Grande, MS	255
+02	Apr Campo Grande, MS	460
+02	Apr Campo Grande, MS	464
+02	Apr Campo Grande, MS	468
+02	Aug Guaruja, SP	416
+02	Aug Guaruja, SP	440
+02	Brasilia, DF	094
+02	Brasilia, DF	338
+02	Campinas, SP	442
+02	Campo Grande, MS	087
+02	Campo Grande, MS	134
+02	Campo Grande, MS	305
+02	Campo Grande, MS	357
+02	Campo Grande, MS	358
+02	Campo Grande, MS	423
+02	Campo Grande, MS	476
+02	Dec Campinas, SP	169
+02	Feb Florianopolis, SC	131
+02	Feb Florianopolis, SC	185
+02	Feb Florianopolis, SC	319
+02	Jan Campinas, SP	022
+02	Jan Campinas, SP	049
+02	Jul Ubatuba, SP	087
+02	Jul Ubatuba, SP	396
+02	Jun Amparo, SP	174
+02	Jun Amparo, SP	207
+02	Jun Amparo, SP	340
+02	Mar Rio de Janeiro, RJ	164
+02	Mar Rio de Janeiro, RJ	170
+02	Mar Rio de Janeiro, RJ	356
+02	May Paranavai, PR	368
+02	Oct Brasilia, DF	309
+02	Oct Brasilia, DF	349
+02	Paranavai, PR	021
+02	Paranavai, PR	039
+02	Paranavai, PR	271
+02	Paranavai, PR	454
+02	Paranavai, PR	461
+02	Paranavai, PR	486
+02	Paranavai, PR	500
+02	Sep Porto Velho, RO	096
+02	Sep Porto Velho, RO	222
+03	Apr Campo Grande, MS	057
+03	Apr Campo Grande, MS	303
+03	Apr Campo Grande, MS	413
+03	Campinas, SP	290
+03	Campinas, SP	380
+03	Campo Grande, MS	169
+03	Campo Grande, MS	250
+03	Campo Grande, MS	398
+03	Campo Grande, MS	430
+03	Campo Grande, MS	436
+03	Campo Grande, MS	481
+03	Campo Grande, MS	500
+03	Dec Campinas, SP	246
+03	Dec Campinas, SP	248
+03	Dec Campinas, SP	486
+03	Feb Florianopolis, SC	400
+03	Feb Florianopolis, SC	424
+03	Feb Florianopolis, SC	468
+03	Jan Campinas, SP	096
+03	Jan Campinas, SP	203
+03	Jan Campinas, SP	382
+03	Jul Ubatuba, SP	191
+03	Jun Amparo, SP	410
+03	Mar Rio de Janeiro, RJ	365
+03	May Paranavai, PR	259
+03	May Paranavai, PR	448
+03	Nov Sao Paulo, SP	212
+03	Oct Brasilia, DF	068
+03	Oct Brasilia, DF	123
+03	Oct Brasilia, DF	330
+03	Paranavai, PR	063
+03	Paranavai, PR	112
+03	Paranavai, PR	144
+03	Paranavai, PR	179
+03	Paranavai, PR	360
+03	Paranavai, PR	378
+03	Paranavai, PR	384
+03	Sep Porto Velho, RO	375
+03	Sep Porto Velho, RO	392
+04	Apr Campo Grande, MS	149
+04	Apr Campo Grande, MS	280
+04	Apr Campo Grande, MS	442
+04	Aug Guaruja, SP	021
+04	Aug Guaruja, SP	090
+04	Aug Guaruja, SP	230
+04	Brasilia, DF	042
+04	Brasilia, DF	044
+04	Campinas, SP	049
+04	Campinas, SP	064
+04	Campinas, SP	155
+04	Campinas, SP	453
+04	Campinas, SP	465
+04	Campo Grande, MS	003
+04	Campo Grande, MS	020
+04	Campo Grande, MS	026
+04	Campo Grande, MS	146
+04	Campo Grande, MS	150
+04	Campo Grande, MS	160
+04	Campo Grande, MS	160
+04	Campo Grande, MS	314
+04	Campo Grande, MS	372
+04	Campo Grande, MS	423
+04	Dec Campinas, SP	055
+04	Dec Campinas, SP	196
+04	Dec Campinas, SP	274
+04	Dec Campinas, SP	447
+04	Dec Campinas, SP	453
+04	Feb Florianopolis, SC	002
+04	Feb Florianopolis, SC	148
+04	Feb Florianopolis, SC	429
+04	Feb Florianopolis, SC	490
+04	Jan Campinas, SP	037
+04	Jan Campinas, SP	286
+04	Jan Campinas, SP	406
+04	Jul Ubatuba, SP	140
+04	Jul Ubatuba, SP	275
+04	Jun Amparo, SP	221
+04	Jun Amparo, SP	301
+04	Mar Rio de Janeiro, RJ	013
+04	Mar Rio de Janeiro, RJ	013
+04	Mar Rio de Janeiro, RJ	047
+04	Mar Rio de Janeiro, RJ	330
+04	Mar Rio de Janeiro, RJ	419
+04	May Paranavai, PR	102
+04	May Paranavai, PR	174
+04	May Paranavai, PR	216
+04	Nov Sao Paulo, SP	022
+04	Oct Brasilia, DF	230
+04	Oct Brasilia, DF	406
+04	Paranavai, PR	098
+04	Paranavai, PR	280
+04	Paranavai, PR	344
+04	Paranavai, PR	477
+04	Sep Porto Velho, RO	157
+04	Sep Porto Velho, RO	417
+05	Apr Campo Grande, MS	029
+05	Apr Campo Grande, MS	135
+05	Apr Campo Grande, MS	432
+05	Aug Guaruja, SP	019
+05	Aug Guaruja, SP	036
+05	Aug Guaruja, SP	083
+05	Aug Guaruja, SP	177
+05	Aug Guaruja, SP	195
+05	Brasilia, DF	190
+05	Brasilia, DF	306
+05	Brasilia, DF	399
+05	Campinas, SP	049
+05	Campinas, SP	173
+05	Campinas, SP	186
+05	Campinas, SP	363
+05	Campo Grande, MS	078
+05	Campo Grande, MS	214
+05	Campo Grande, MS	220
+05	Campo Grande, MS	233
+05	Campo Grande, MS	241
+05	Campo Grande, MS	323
+05	Campo Grande, MS	349
+05	Campo Grande, MS	359
+05	Campo Grande, MS	435
+05	Campo Grande, MS	458
+05	Campo Grande, MS	460
+05	Campo Grande, MS	477
+05	Dec Campinas, SP	269
+05	Feb Florianopolis, SC	132
+05	Feb Florianopolis, SC	374
+05	Feb Florianopolis, SC	441
+05	Jan Campinas, SP	261
+05	Jan Campinas, SP	416
+05	Jul Ubatuba, SP	218
+05	Jun Amparo, SP	053
+05	Jun Amparo, SP	101
+05	Mar Rio de Janeiro, RJ	166
+05	Mar Rio de Janeiro, RJ	302
+05	Mar Rio de Janeiro, RJ	354
+05	May Paranavai, PR	184
+05	May Paranavai, PR	345
+05	May Paranavai, PR	373
+05	Nov Sao Paulo, SP	174
+05	Nov Sao Paulo, SP	191
+05	Nov Sao Paulo, SP	309
+05	Nov Sao Paulo, SP	319
+05	Oct Brasilia, DF	008
+05	Oct Brasilia, DF	074
+05	Oct Brasilia, DF	098
+05	Oct Brasilia, DF	272
+05	Oct Brasilia, DF	421
+05	Paranavai, PR	008
+05	Paranavai, PR	254
+05	Sep Porto Velho, RO	102
+06	Apr Campo Grande, MS	075
+06	Aug Guaruja, SP	208
+06	Brasilia, DF	272
+06	Brasilia, DF	412
+06	Campinas, SP	401
+06	Campinas, SP	467
+06	Campo Grande, MS	005
+06	Campo Grande, MS	264
+06	Campo Grande, MS	286
+06	Campo Grande, MS	462
+06	Dec Campinas, SP	386
+06	Feb Florianopolis, SC	441
+06	Jan Campinas, SP	068
+06	Jul Ubatuba, SP	013
+06	Jul Ubatuba, SP	091
+06	Jul Ubatuba, SP	352
+06	Jun Amparo, SP	073
+06	Jun Amparo, SP	363
+06	Mar Rio de Janeiro, RJ	316
+06	Mar Rio de Janeiro, RJ	390
+06	Nov Sao Paulo, SP	356
+06	Nov Sao Paulo, SP	486
+06	Oct Brasilia, DF	098
+06	Oct Brasilia, DF	394
+06	Paranavai, PR	106
+06	Paranavai, PR	119
+06	Paranavai, PR	183
+06	Paranavai, PR	241
+06	Paranavai, PR	479
+06	Paranavai, PR	495
+06	Sep Porto Velho, RO	452
+07	Aug Guaruja, SP	475
+07	Brasilia, DF	393
+07	Campinas, SP	147
+07	Campinas, SP	161
+07	Campo Grande, MS	053
+07	Campo Grande, MS	294
+07	Campo Grande, MS	310
+07	Campo Grande, MS	381
+07	Campo Grande, MS	402
+07	Campo Grande, MS	423
+07	Campo Grande, MS	438
+07	Campo Grande, MS	449
+07	Campo Grande, MS	468
+07	Campo Grande, MS	475
+07	Dec Campinas, SP	081
+07	Feb Florianopolis, SC	092
+07	Jan Campinas, SP	134
+07	Jan Campinas, SP	172
+07	Jan Campinas, SP	370
+07	Jan Campinas, SP	460
+07	Jan Campinas, SP	487
+07	Jul Ubatuba, SP	013
+07	Jul Ubatuba, SP	090
+07	Jul Ubatuba, SP	243
+07	Jul Ubatuba, SP	259
+07	Jul Ubatuba, SP	372
+07	Jul Ubatuba, SP	471
+07	Jun Amparo, SP	032
+07	Jun Amparo, SP	136
+07	Jun Amparo, SP	259
+07	Mar Rio de Janeiro, RJ	185
+07	Mar Rio de Janeiro, RJ	266
+07	Mar Rio de Janeiro, RJ	284
+07	May Paranavai, PR	210
+07	May Paranavai, PR	320
+07	Oct Brasilia, DF	327
+07	Oct Brasilia, DF	373
+07	Oct Brasilia, DF	395
+07	Paranavai, PR	052
+07	Paranavai, PR	073
+07	Paranavai, PR	241
+07	Paranavai, PR	301
+07	Paranavai, PR	394
+07	Sep Porto Velho, RO	120
+07	Sep Porto Velho, RO	372
+08	Apr Campo Grande, MS	433
+08	Aug Guaruja, SP	078
+08	Aug Guaruja, SP	118
+08	Aug Guaruja, SP	196
+08	Aug Guaruja, SP	331
+08	Aug Guaruja, SP	500
+08	Brasilia, DF	207
+08	Brasilia, DF	256
+08	Campo Grande, MS	100
+08	Campo Grande, MS	129
+08	Campo Grande, MS	137
+08	Campo Grande, MS	224
+08	Campo Grande, MS	230
+08	Campo Grande, MS	237
+08	Campo Grande, MS	312
+08	Campo Grande, MS	325
+08	Campo Grande, MS	448
+08	Campo Grande, MS	468
+08	Feb Florianopolis, SC	121
+08	Feb Florianopolis, SC	437
+08	Jul Ubatuba, SP	170
+08	Jul Ubatuba, SP	239
+08	Jul Ubatuba, SP	286
+08	Jul Ubatuba, SP	465
+08	Jun Amparo, SP	089
+08	Jun Amparo, SP	106
+08	Jun Amparo, SP	147
+08	Jun Amparo, SP	486
+08	May Paranavai, PR	157
+08	May Paranavai, PR	306
+08	May Paranavai, PR	415
+08	Nov Sao Paulo, SP	200
+08	Paranavai, PR	008
+08	Paranavai, PR	016
+08	Sep Porto Velho, RO	116
+08	Sep Porto Velho, RO	202
+08	Sep Porto Velho, RO	370
+08	Sep Porto Velho, RO	393
+08	Sep Porto Velho, RO	403
+08	Sep Porto Velho, RO	445
+09	Apr Campo Grande, MS	038
+09	Apr Campo Grande, MS	358
+09	Aug Guaruja, SP	292
+09	Brasilia, DF	027
+09	Brasilia, DF	167
+09	Brasilia, DF	237
+09	Brasilia, DF	289
+09	Brasilia, DF	317
+09	Brasilia, DF	449
+09	Brasilia, DF	489
+09	Campinas, SP	409
+09	Campo Grande, MS	025
+09	Campo Grande, MS	200
+09	Campo Grande, MS	212
+09	Campo Grande, MS	361
+09	Campo Grande, MS	455
+09	Campo Grande, MS	473
+09	Feb Florianopolis, SC	441
+09	Jan Campinas, SP	290
+09	Jul Ubatuba, SP	091
+09	Jun Amparo, SP	041
+09	Mar Rio de Janeiro, RJ	344
+09	Mar Rio de Janeiro, RJ	396
+09	May Paranavai, PR	300
+09	Nov Sao Paulo, SP	242
+09	Nov Sao Paulo, SP	485
+09	Oct Brasilia, DF	084
+09	Oct Brasilia, DF	452
+09	Paranavai, PR	203
+10	Apr Campo Grande, MS	178
+10	Apr Campo Grande, MS	185
+10	Apr Campo Grande, MS	231
+10	Aug Guaruja, SP	339
+10	Brasilia, DF	222
+10	Brasilia, DF	369
+10	Campinas, SP	026
+10	Campo Grande, MS	018
+10	Campo Grande, MS	092
+10	Campo Grande, MS	164
+10	Campo Grande, MS	172
+10	Campo Grande, MS	187
+10	Campo Grande, MS	292
+10	Campo Grande, MS	369
+10	Campo Grande, MS	376
+10	Campo Grande, MS	423
+10	Campo Grande, MS	440
+10	Dec Campinas, SP	012
+10	Feb Florianopolis, SC	199
+10	Feb Florianopolis, SC	461
+10	Jan Campinas, SP	135
+10	Jan Campinas, SP	289
+10	Jul Ubatuba, SP	373
+10	Jun Amparo, SP	352
+10	Jun Amparo, SP	485
+10	Mar Rio de Janeiro, RJ	423
+10	May Paranavai, PR	100
+10	May Paranavai, PR	307
+10	May Paranavai, PR	493
+10	Nov Sao Paulo, SP	327
+10	Paranavai, PR	027
+10	Paranavai, PR	057
+10	Paranavai, PR	195
+10	Paranavai, PR	282
+10	Paranavai, PR	287
+10	Paranavai, PR	291
+10	Paranavai, PR	337
+10	Sep Porto Velho, RO	012
+10	Sep Porto Velho, RO	133
+11	Apr Campo Grande, MS	088
+11	Apr Campo Grande, MS	459
+11	Apr Campo Grande, MS	473
+11	Aug Guaruja, SP	000
+11	Aug Guaruja, SP	448
+11	Campinas, SP	086
+11	Campinas, SP	300
+11	Campo Grande, MS	116
+11	Campo Grande, MS	225
+11	Campo Grande, MS	328
+11	Dec Campinas, SP	187
+11	Feb Florianopolis, SC	357
+11	Jan Campinas, SP	077
+11	Jan Campinas, SP	211
+11	Jan Campinas, SP	373
+11	Jul Ubatuba, SP	164
+11	Jul Ubatuba, SP	367
+11	Jun Amparo, SP	044
+11	Jun Amparo, SP	299
+11	Jun Amparo, SP	405
+11	Mar Rio de Janeiro, RJ	125
+11	May Paranavai, PR	007
+11	May Paranavai, PR	161
+11	May Paranavai, PR	182
+11	Nov Sao Paulo, SP	327
+11	Nov Sao Paulo, SP	398
+11	Oct Brasilia, DF	036
+11	Oct Brasilia, DF	305
+11	Oct Brasilia, DF	409
+11	Paranavai, PR	111
+11	Paranavai, PR	113
+11	Paranavai, PR	181
+11	Paranavai, PR	196
+11	Paranavai, PR	245
+11	Paranavai, PR	283
+11	Paranavai, PR	309
+11	Paranavai, PR	356
+11	Paranavai, PR	365
+11	Sep Porto Velho, RO	017
+11	Sep Porto Velho, RO	101
+11	Sep Porto Velho, RO	187
+12	Apr Campo Grande, MS	447
+12	Aug Guaruja, SP	020
+12	Aug Guaruja, SP	500
+12	Brasilia, DF	272
+12	Campinas, SP	382
+12	Campinas, SP	497
+12	Campinas, SP	497
+12	Campo Grande, MS	055
+12	Campo Grande, MS	111
+12	Campo Grande, MS	126
+12	Campo Grande, MS	142
+12	Campo Grande, MS	243
+12	Campo Grande, MS	280
+12	Campo Grande, MS	303
+12	Campo Grande, MS	329
+12	Campo Grande, MS	370
+12	Campo Grande, MS	423
+12	Campo Grande, MS	423
+12	Dec Campinas, SP	234
+12	Feb Florianopolis, SC	128
+12	Feb Florianopolis, SC	366
+12	Jan Campinas, SP	139
+12	Jan Campinas, SP	140
+12	Jan Campinas, SP	260
+12	Jan Campinas, SP	348
+12	Jan Campinas, SP	479
+12	Jul Ubatuba, SP	454
+12	Jun Amparo, SP	323
+12	Jun Amparo, SP	426
+12	Jun Amparo, SP	433
+12	Mar Rio de Janeiro, RJ	020
+12	Mar Rio de Janeiro, RJ	233
+12	Mar Rio de Janeiro, RJ	399
+12	May Paranavai, PR	063
+12	May Paranavai, PR	128
+12	Nov Sao Paulo, SP	064
+12	Nov Sao Paulo, SP	226
+12	Nov Sao Paulo, SP	422
+12	Oct Brasilia, DF	310
+12	Oct Brasilia, DF	321
+12	Oct Brasilia, DF	400
+12	Paranavai, PR	026
+12	Paranavai, PR	190
+12	Sep Porto Velho, RO	300
+12	Sep Porto Velho, RO	490

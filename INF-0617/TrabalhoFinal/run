@@ -14,3 +14,17 @@ echo Finalizada insercao de sensor-location no hdfs
 echo Iniciando job mapreduce responsavel por juntar os dados
 ./join.sh
 echo Finalizado job mapreduce responsavel por juntar os dados
+
+# Cria um novo arquivo que junta as informacoes dos dois arquivos, esse arquivo sera criado no hdfs com o nome measurements-vs-sensor-location
+
+cd ex1
+echo Mudando diretorio para:
+pwd
+echo Iniciando job mapreduce tarefa1
+./run.sh
+echo Finalizado job mapreduce tarefa1
+
+cd ..
+echo Mudando diretorio para:
+pwd
+

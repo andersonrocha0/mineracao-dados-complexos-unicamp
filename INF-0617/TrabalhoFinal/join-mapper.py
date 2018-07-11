@@ -13,7 +13,6 @@ import sys
 # Characters 24-26: lux (3 digits). 23:26
 
 
-# TODO verificar como ficarao as keys
 for line in sys.stdin:
 
     sensor_id = "-"
