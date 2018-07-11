@@ -1,0 +1,500 @@
+Apr Campo Grande, MS	029
+Apr Campo Grande, MS	038
+Apr Campo Grande, MS	057
+Apr Campo Grande, MS	075
+Apr Campo Grande, MS	088
+Apr Campo Grande, MS	135
+Apr Campo Grande, MS	149
+Apr Campo Grande, MS	178
+Apr Campo Grande, MS	185
+Apr Campo Grande, MS	231
+Apr Campo Grande, MS	255
+Apr Campo Grande, MS	280
+Apr Campo Grande, MS	303
+Apr Campo Grande, MS	358
+Apr Campo Grande, MS	361
+Apr Campo Grande, MS	413
+Apr Campo Grande, MS	432
+Apr Campo Grande, MS	433
+Apr Campo Grande, MS	442
+Apr Campo Grande, MS	447
+Apr Campo Grande, MS	459
+Apr Campo Grande, MS	460
+Apr Campo Grande, MS	464
+Apr Campo Grande, MS	468
+Apr Campo Grande, MS	473
+Aug Guaruja, SP	000
+Aug Guaruja, SP	019
+Aug Guaruja, SP	020
+Aug Guaruja, SP	021
+Aug Guaruja, SP	036
+Aug Guaruja, SP	078
+Aug Guaruja, SP	083
+Aug Guaruja, SP	090
+Aug Guaruja, SP	118
+Aug Guaruja, SP	177
+Aug Guaruja, SP	195
+Aug Guaruja, SP	196
+Aug Guaruja, SP	208
+Aug Guaruja, SP	230
+Aug Guaruja, SP	239
+Aug Guaruja, SP	292
+Aug Guaruja, SP	331
+Aug Guaruja, SP	339
+Aug Guaruja, SP	373
+Aug Guaruja, SP	416
+Aug Guaruja, SP	440
+Aug Guaruja, SP	448
+Aug Guaruja, SP	471
+Aug Guaruja, SP	475
+Aug Guaruja, SP	500
+Aug Guaruja, SP	500
+Brasilia, DF	027
+Brasilia, DF	042
+Brasilia, DF	044
+Brasilia, DF	067
+Brasilia, DF	094
+Brasilia, DF	167
+Brasilia, DF	185
+Brasilia, DF	190
+Brasilia, DF	207
+Brasilia, DF	222
+Brasilia, DF	237
+Brasilia, DF	256
+Brasilia, DF	272
+Brasilia, DF	272
+Brasilia, DF	289
+Brasilia, DF	297
+Brasilia, DF	306
+Brasilia, DF	317
+Brasilia, DF	338
+Brasilia, DF	369
+Brasilia, DF	386
+Brasilia, DF	393
+Brasilia, DF	399
+Brasilia, DF	412
+Brasilia, DF	449
+Brasilia, DF	489
+Campinas, SP	026
+Campinas, SP	049
+Campinas, SP	049
+Campinas, SP	064
+Campinas, SP	086
+Campinas, SP	147
+Campinas, SP	155
+Campinas, SP	161
+Campinas, SP	173
+Campinas, SP	186
+Campinas, SP	290
+Campinas, SP	300
+Campinas, SP	363
+Campinas, SP	380
+Campinas, SP	382
+Campinas, SP	401
+Campinas, SP	409
+Campinas, SP	442
+Campinas, SP	453
+Campinas, SP	465
+Campinas, SP	467
+Campinas, SP	487
+Campinas, SP	497
+Campinas, SP	497
+Campo Grande, MS	003
+Campo Grande, MS	005
+Campo Grande, MS	018
+Campo Grande, MS	020
+Campo Grande, MS	025
+Campo Grande, MS	026
+Campo Grande, MS	053
+Campo Grande, MS	055
+Campo Grande, MS	078
+Campo Grande, MS	087
+Campo Grande, MS	092
+Campo Grande, MS	100
+Campo Grande, MS	111
+Campo Grande, MS	116
+Campo Grande, MS	126
+Campo Grande, MS	129
+Campo Grande, MS	134
+Campo Grande, MS	137
+Campo Grande, MS	142
+Campo Grande, MS	146
+Campo Grande, MS	150
+Campo Grande, MS	150
+Campo Grande, MS	160
+Campo Grande, MS	160
+Campo Grande, MS	164
+Campo Grande, MS	169
+Campo Grande, MS	172
+Campo Grande, MS	185
+Campo Grande, MS	187
+Campo Grande, MS	200
+Campo Grande, MS	212
+Campo Grande, MS	214
+Campo Grande, MS	220
+Campo Grande, MS	224
+Campo Grande, MS	225
+Campo Grande, MS	230
+Campo Grande, MS	233
+Campo Grande, MS	237
+Campo Grande, MS	241
+Campo Grande, MS	243
+Campo Grande, MS	250
+Campo Grande, MS	264
+Campo Grande, MS	280
+Campo Grande, MS	286
+Campo Grande, MS	292
+Campo Grande, MS	294
+Campo Grande, MS	303
+Campo Grande, MS	305
+Campo Grande, MS	310
+Campo Grande, MS	312
+Campo Grande, MS	314
+Campo Grande, MS	323
+Campo Grande, MS	325
+Campo Grande, MS	325
+Campo Grande, MS	328
+Campo Grande, MS	329
+Campo Grande, MS	349
+Campo Grande, MS	357
+Campo Grande, MS	358
+Campo Grande, MS	359
+Campo Grande, MS	361
+Campo Grande, MS	369
+Campo Grande, MS	370
+Campo Grande, MS	372
+Campo Grande, MS	376
+Campo Grande, MS	381
+Campo Grande, MS	398
+Campo Grande, MS	402
+Campo Grande, MS	412
+Campo Grande, MS	423
+Campo Grande, MS	423
+Campo Grande, MS	423
+Campo Grande, MS	423
+Campo Grande, MS	423
+Campo Grande, MS	423
+Campo Grande, MS	430
+Campo Grande, MS	435
+Campo Grande, MS	436
+Campo Grande, MS	438
+Campo Grande, MS	438
+Campo Grande, MS	440
+Campo Grande, MS	448
+Campo Grande, MS	449
+Campo Grande, MS	455
+Campo Grande, MS	458
+Campo Grande, MS	460
+Campo Grande, MS	461
+Campo Grande, MS	462
+Campo Grande, MS	468
+Campo Grande, MS	468
+Campo Grande, MS	473
+Campo Grande, MS	475
+Campo Grande, MS	476
+Campo Grande, MS	477
+Campo Grande, MS	481
+Campo Grande, MS	500
+Dec Campinas, SP	012
+Dec Campinas, SP	055
+Dec Campinas, SP	068
+Dec Campinas, SP	081
+Dec Campinas, SP	150
+Dec Campinas, SP	169
+Dec Campinas, SP	187
+Dec Campinas, SP	196
+Dec Campinas, SP	234
+Dec Campinas, SP	246
+Dec Campinas, SP	248
+Dec Campinas, SP	269
+Dec Campinas, SP	274
+Dec Campinas, SP	386
+Dec Campinas, SP	437
+Dec Campinas, SP	447
+Dec Campinas, SP	453
+Dec Campinas, SP	486
+Feb Florianopolis, SC	002
+Feb Florianopolis, SC	092
+Feb Florianopolis, SC	121
+Feb Florianopolis, SC	128
+Feb Florianopolis, SC	131
+Feb Florianopolis, SC	132
+Feb Florianopolis, SC	148
+Feb Florianopolis, SC	185
+Feb Florianopolis, SC	199
+Feb Florianopolis, SC	319
+Feb Florianopolis, SC	319
+Feb Florianopolis, SC	357
+Feb Florianopolis, SC	366
+Feb Florianopolis, SC	374
+Feb Florianopolis, SC	400
+Feb Florianopolis, SC	424
+Feb Florianopolis, SC	429
+Feb Florianopolis, SC	437
+Feb Florianopolis, SC	441
+Feb Florianopolis, SC	441
+Feb Florianopolis, SC	441
+Feb Florianopolis, SC	461
+Feb Florianopolis, SC	468
+Feb Florianopolis, SC	490
+Jan Campinas, SP	022
+Jan Campinas, SP	037
+Jan Campinas, SP	049
+Jan Campinas, SP	068
+Jan Campinas, SP	077
+Jan Campinas, SP	081
+Jan Campinas, SP	096
+Jan Campinas, SP	129
+Jan Campinas, SP	134
+Jan Campinas, SP	135
+Jan Campinas, SP	139
+Jan Campinas, SP	140
+Jan Campinas, SP	172
+Jan Campinas, SP	177
+Jan Campinas, SP	203
+Jan Campinas, SP	211
+Jan Campinas, SP	260
+Jan Campinas, SP	261
+Jan Campinas, SP	286
+Jan Campinas, SP	289
+Jan Campinas, SP	290
+Jan Campinas, SP	348
+Jan Campinas, SP	370
+Jan Campinas, SP	373
+Jan Campinas, SP	382
+Jan Campinas, SP	406
+Jan Campinas, SP	408
+Jan Campinas, SP	409
+Jan Campinas, SP	416
+Jan Campinas, SP	460
+Jan Campinas, SP	479
+Jan Campinas, SP	487
+Jul Ubatuba, SP	013
+Jul Ubatuba, SP	013
+Jul Ubatuba, SP	087
+Jul Ubatuba, SP	090
+Jul Ubatuba, SP	091
+Jul Ubatuba, SP	091
+Jul Ubatuba, SP	140
+Jul Ubatuba, SP	164
+Jul Ubatuba, SP	170
+Jul Ubatuba, SP	191
+Jul Ubatuba, SP	218
+Jul Ubatuba, SP	237
+Jul Ubatuba, SP	239
+Jul Ubatuba, SP	243
+Jul Ubatuba, SP	259
+Jul Ubatuba, SP	275
+Jul Ubatuba, SP	286
+Jul Ubatuba, SP	352
+Jul Ubatuba, SP	364
+Jul Ubatuba, SP	367
+Jul Ubatuba, SP	372
+Jul Ubatuba, SP	373
+Jul Ubatuba, SP	396
+Jul Ubatuba, SP	454
+Jul Ubatuba, SP	465
+Jul Ubatuba, SP	471
+Jul Ubatuba, SP	474
+Jun Amparo, SP	032
+Jun Amparo, SP	041
+Jun Amparo, SP	044
+Jun Amparo, SP	053
+Jun Amparo, SP	073
+Jun Amparo, SP	089
+Jun Amparo, SP	101
+Jun Amparo, SP	106
+Jun Amparo, SP	136
+Jun Amparo, SP	147
+Jun Amparo, SP	174
+Jun Amparo, SP	207
+Jun Amparo, SP	221
+Jun Amparo, SP	259
+Jun Amparo, SP	299
+Jun Amparo, SP	301
+Jun Amparo, SP	323
+Jun Amparo, SP	340
+Jun Amparo, SP	352
+Jun Amparo, SP	363
+Jun Amparo, SP	405
+Jun Amparo, SP	410
+Jun Amparo, SP	426
+Jun Amparo, SP	433
+Jun Amparo, SP	485
+Jun Amparo, SP	486
+Mar Rio de Janeiro, RJ	013
+Mar Rio de Janeiro, RJ	013
+Mar Rio de Janeiro, RJ	020
+Mar Rio de Janeiro, RJ	047
+Mar Rio de Janeiro, RJ	047
+Mar Rio de Janeiro, RJ	125
+Mar Rio de Janeiro, RJ	164
+Mar Rio de Janeiro, RJ	166
+Mar Rio de Janeiro, RJ	170
+Mar Rio de Janeiro, RJ	185
+Mar Rio de Janeiro, RJ	187
+Mar Rio de Janeiro, RJ	233
+Mar Rio de Janeiro, RJ	266
+Mar Rio de Janeiro, RJ	284
+Mar Rio de Janeiro, RJ	302
+Mar Rio de Janeiro, RJ	316
+Mar Rio de Janeiro, RJ	330
+Mar Rio de Janeiro, RJ	344
+Mar Rio de Janeiro, RJ	354
+Mar Rio de Janeiro, RJ	356
+Mar Rio de Janeiro, RJ	365
+Mar Rio de Janeiro, RJ	390
+Mar Rio de Janeiro, RJ	396
+Mar Rio de Janeiro, RJ	399
+Mar Rio de Janeiro, RJ	419
+Mar Rio de Janeiro, RJ	423
+May Paranavai, PR	007
+May Paranavai, PR	063
+May Paranavai, PR	100
+May Paranavai, PR	102
+May Paranavai, PR	128
+May Paranavai, PR	157
+May Paranavai, PR	161
+May Paranavai, PR	174
+May Paranavai, PR	182
+May Paranavai, PR	184
+May Paranavai, PR	210
+May Paranavai, PR	216
+May Paranavai, PR	259
+May Paranavai, PR	300
+May Paranavai, PR	306
+May Paranavai, PR	307
+May Paranavai, PR	320
+May Paranavai, PR	345
+May Paranavai, PR	368
+May Paranavai, PR	373
+May Paranavai, PR	415
+May Paranavai, PR	448
+May Paranavai, PR	475
+May Paranavai, PR	493
+Nov Sao Paulo, SP	022
+Nov Sao Paulo, SP	064
+Nov Sao Paulo, SP	119
+Nov Sao Paulo, SP	143
+Nov Sao Paulo, SP	174
+Nov Sao Paulo, SP	191
+Nov Sao Paulo, SP	200
+Nov Sao Paulo, SP	212
+Nov Sao Paulo, SP	226
+Nov Sao Paulo, SP	242
+Nov Sao Paulo, SP	309
+Nov Sao Paulo, SP	319
+Nov Sao Paulo, SP	327
+Nov Sao Paulo, SP	327
+Nov Sao Paulo, SP	355
+Nov Sao Paulo, SP	356
+Nov Sao Paulo, SP	394
+Nov Sao Paulo, SP	398
+Nov Sao Paulo, SP	422
+Nov Sao Paulo, SP	458
+Nov Sao Paulo, SP	485
+Nov Sao Paulo, SP	486
+Oct Brasilia, DF	008
+Oct Brasilia, DF	036
+Oct Brasilia, DF	068
+Oct Brasilia, DF	074
+Oct Brasilia, DF	084
+Oct Brasilia, DF	098
+Oct Brasilia, DF	098
+Oct Brasilia, DF	123
+Oct Brasilia, DF	195
+Oct Brasilia, DF	230
+Oct Brasilia, DF	272
+Oct Brasilia, DF	305
+Oct Brasilia, DF	309
+Oct Brasilia, DF	310
+Oct Brasilia, DF	321
+Oct Brasilia, DF	327
+Oct Brasilia, DF	330
+Oct Brasilia, DF	349
+Oct Brasilia, DF	373
+Oct Brasilia, DF	394
+Oct Brasilia, DF	395
+Oct Brasilia, DF	400
+Oct Brasilia, DF	406
+Oct Brasilia, DF	409
+Oct Brasilia, DF	421
+Oct Brasilia, DF	452
+Oct Brasilia, DF	453
+Paranavai, PR	008
+Paranavai, PR	008
+Paranavai, PR	014
+Paranavai, PR	016
+Paranavai, PR	021
+Paranavai, PR	026
+Paranavai, PR	027
+Paranavai, PR	039
+Paranavai, PR	052
+Paranavai, PR	057
+Paranavai, PR	063
+Paranavai, PR	073
+Paranavai, PR	098
+Paranavai, PR	106
+Paranavai, PR	111
+Paranavai, PR	112
+Paranavai, PR	113
+Paranavai, PR	119
+Paranavai, PR	144
+Paranavai, PR	179
+Paranavai, PR	181
+Paranavai, PR	183
+Paranavai, PR	190
+Paranavai, PR	195
+Paranavai, PR	196
+Paranavai, PR	203
+Paranavai, PR	241
+Paranavai, PR	241
+Paranavai, PR	245
+Paranavai, PR	254
+Paranavai, PR	271
+Paranavai, PR	280
+Paranavai, PR	282
+Paranavai, PR	283
+Paranavai, PR	287
+Paranavai, PR	291
+Paranavai, PR	301
+Paranavai, PR	309
+Paranavai, PR	337
+Paranavai, PR	344
+Paranavai, PR	355
+Paranavai, PR	356
+Paranavai, PR	360
+Paranavai, PR	365
+Paranavai, PR	378
+Paranavai, PR	384
+Paranavai, PR	394
+Paranavai, PR	454
+Paranavai, PR	461
+Paranavai, PR	477
+Paranavai, PR	479
+Paranavai, PR	486
+Paranavai, PR	495
+Paranavai, PR	500
+Sep Porto Velho, RO	012
+Sep Porto Velho, RO	017
+Sep Porto Velho, RO	096
+Sep Porto Velho, RO	101
+Sep Porto Velho, RO	102
+Sep Porto Velho, RO	116
+Sep Porto Velho, RO	120
+Sep Porto Velho, RO	133
+Sep Porto Velho, RO	157
+Sep Porto Velho, RO	187
+Sep Porto Velho, RO	202
+Sep Porto Velho, RO	222
+Sep Porto Velho, RO	300
+Sep Porto Velho, RO	370
+Sep Porto Velho, RO	372
+Sep Porto Velho, RO	375
+Sep Porto Velho, RO	392
+Sep Porto Velho, RO	393
+Sep Porto Velho, RO	403
+Sep Porto Velho, RO	417
+Sep Porto Velho, RO	445
+Sep Porto Velho, RO	452
+Sep Porto Velho, RO	490
