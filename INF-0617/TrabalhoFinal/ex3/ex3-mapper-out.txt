@@ -1,0 +1,84 @@
+Paranavai, PR	07	301
+Paranavai, PR	01	014
+Paranavai, PR	07	394
+Campinas, SP	07	147
+Campinas, SP	07	161
+Campinas, SP	01	487
+Paranavai, PR	01	355
+Paranavai, PR	07	052
+Paranavai, PR	07	073
+Paranavai, PR	07	241
+Brasilia, DF	01	067
+Brasilia, DF	07	393
+Brasilia, DF	01	297
+Brasilia, DF	01	386
+Brasilia, DF	01	185
+Campo Grande, MS	01	438
+Campo Grande, MS	07	438
+Campo Grande, MS	07	053
+Campo Grande, MS	07	381
+Campo Grande, MS	01	461
+Campo Grande, MS	07	449
+Campo Grande, MS	07	402
+Campo Grande, MS	07	468
+Campo Grande, MS	07	423
+Campo Grande, MS	07	475
+Campo Grande, MS	01	412
+Campo Grande, MS	01	150
+Campo Grande, MS	07	294
+Campo Grande, MS	01	325
+Campo Grande, MS	01	185
+Campo Grande, MS	07	310
+Dec Campinas, SP	07	081
+Dec Campinas, SP	01	437
+Dec Campinas, SP	01	150
+Dec Campinas, SP	01	068
+Nov Sao Paulo, SP	01	143
+Nov Sao Paulo, SP	01	458
+Nov Sao Paulo, SP	01	355
+Nov Sao Paulo, SP	01	119
+Nov Sao Paulo, SP	01	394
+Oct Brasilia, DF	07	327
+Oct Brasilia, DF	07	373
+Oct Brasilia, DF	01	453
+Oct Brasilia, DF	07	395
+Oct Brasilia, DF	01	195
+Sep Porto Velho, RO	07	120
+Sep Porto Velho, RO	07	372
+Aug Guaruja, SP	01	239
+Aug Guaruja, SP	01	373
+Aug Guaruja, SP	07	475
+Aug Guaruja, SP	01	471
+Jul Ubatuba, SP	07	013
+Jul Ubatuba, SP	07	372
+Jul Ubatuba, SP	01	237
+Jul Ubatuba, SP	07	090
+Jul Ubatuba, SP	07	471
+Jul Ubatuba, SP	07	259
+Jul Ubatuba, SP	01	474
+Jul Ubatuba, SP	07	243
+Jul Ubatuba, SP	01	364
+Jun Amparo, SP	07	136
+Jun Amparo, SP	07	032
+Jun Amparo, SP	07	259
+May Paranavai, PR	07	210
+May Paranavai, PR	01	475
+May Paranavai, PR	07	320
+Apr Campo Grande, MS	01	361
+Mar Rio de Janeiro, RJ	07	266
+Mar Rio de Janeiro, RJ	07	185
+Mar Rio de Janeiro, RJ	01	047
+Mar Rio de Janeiro, RJ	01	187
+Mar Rio de Janeiro, RJ	07	284
+Feb Florianopolis, SC	07	092
+Feb Florianopolis, SC	01	319
+Jan Campinas, SP	01	177
+Jan Campinas, SP	07	370
+Jan Campinas, SP	07	487
+Jan Campinas, SP	01	408
+Jan Campinas, SP	07	460
+Jan Campinas, SP	07	172
+Jan Campinas, SP	01	409
+Jan Campinas, SP	01	129
+Jan Campinas, SP	07	134
+Jan Campinas, SP	01	081

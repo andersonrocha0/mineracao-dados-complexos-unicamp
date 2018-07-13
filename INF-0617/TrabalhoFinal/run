@@ -28,7 +28,7 @@ cd ..
 echo Mudando diretorio para:
 pwd
 
-# Parte 2 da tarefa. Arquivo de saida item1.out
+# Parte 2 da tarefa. Arquivo de saida item2.out
 
 cd ex2
 echo Mudando diretorio para:
@@ -41,6 +41,18 @@ cd ..
 echo Mudando diretorio para:
 pwd
 
+# Parte 3 da tarefa. Arquivo de saida item2.out
+
+cd ex3
+echo Mudando diretorio para:
+pwd
+echo Iniciando job mapreduce tarefa3
+./run.sh
+echo Finalizado job mapreduce tarefa3
+
+cd ..
+echo Mudando diretorio para:
+pwd
 
 # Exportando arquivos
 
