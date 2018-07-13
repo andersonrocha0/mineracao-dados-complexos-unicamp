@@ -7,11 +7,14 @@ import math
 temperatures = [[] for i in range(12)]
 cur_city = None
 
+
 def mean(values):
     return sum(values) / len(values)
 
+
 def stdev(values):
     return math.sqrt(sum([(x - mean(values))**2 for x in values])/len(values))
+
 
 def print_out(city_param, temperatures_param):
     jan_mean = mean(temperatures_param[0]) if len(temperatures_param[0]) > 0 else 0
@@ -19,7 +22,7 @@ def print_out(city_param, temperatures_param):
 
     jul_mean = mean(temperatures_param[6]) if len(temperatures_param[6]) > 0 else 0
     jul_stdev = stdev(temperatures_param[6]) if len(temperatures_param[6]) > 0 else 0
-    print("('%s', '%s', '%s', '%s', '%s')" % (city_param, int(jan_mean), int(jan_stdev), int(jul_mean), int(jul_stdev)))
+    print("('%s', %s, %s, %s, %s)" % (city_param, int(jan_mean), int(jan_stdev), int(jul_mean), int(jul_stdev)))
 
 
 for line in sys.stdin:

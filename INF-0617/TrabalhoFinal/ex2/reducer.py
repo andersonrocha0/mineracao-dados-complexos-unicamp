@@ -8,7 +8,7 @@ cur_city = None
 
 
 def print_out(city_param, min_param, max_param):
-    print("('%s', '%s', '%s')" % (city_param, min_param, max_param))
+    print("('%s', %s, %s)" % (city_param, min_param, max_param))
 
 
 for line in sys.stdin:
