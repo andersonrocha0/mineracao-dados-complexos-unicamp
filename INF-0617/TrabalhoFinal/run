@@ -12,7 +12,14 @@ echo Finalizada insercao de sensor-location no hdfs
 
 # Cria um novo arquivo que junta as informacoes dos dois arquivos, esse arquivo sera criado no hdfs com o nome measurements-vs-sensor-location
 echo Iniciando job mapreduce responsavel por juntar os dados
-./join.sh
+#./join.sh
+hadoop jar /home/bitnami/stack/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.0.jar \
+    -files join-mapper.py,join-reducer.py \
+    -mapper join-mapper.py \
+    -reducer join-reducer.py \
+    -input measurements.txt \
+    -input sensor-location.txt \
+    -output measurements-vs-sensor-location
 echo Finalizado job mapreduce responsavel por juntar os dados
 
 # Parte 1 da tarefa. Arquivo de saida item1.out
@@ -21,7 +28,13 @@ cd ex1
 echo Mudando diretorio para:
 pwd
 echo Iniciando job mapreduce tarefa1
-./run.sh
+#./run.sh
+hadoop jar /home/bitnami/stack/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.0.jar \
+    -files mapper.py,reducer.py \
+    -mapper mapper.py \
+    -reducer reducer.py \
+    -input measurements-vs-sensor-location \
+    -output item1.out
 echo Finalizado job mapreduce tarefa1
 
 cd ..
@@ -34,7 +47,13 @@ cd ex2
 echo Mudando diretorio para:
 pwd
 echo Iniciando job mapreduce tarefa2
-./run.sh
+#./run.sh
+hadoop jar /home/bitnami/stack/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.0.jar \
+    -files mapper.py,reducer.py \
+    -mapper mapper.py \
+    -reducer reducer.py \
+    -input measurements-vs-sensor-location \
+    -output item2.out
 echo Finalizado job mapreduce tarefa2
 
 cd ..
@@ -47,7 +66,13 @@ cd ex3
 echo Mudando diretorio para:
 pwd
 echo Iniciando job mapreduce tarefa3
-./run.sh
+#./run.sh
+hadoop jar /home/bitnami/stack/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.1.0.jar \
+    -files mapper.py,reducer.py \
+    -mapper mapper.py \
+    -reducer reducer.py \
+    -input measurements-vs-sensor-location \
+    -output item3.out
 echo Finalizado job mapreduce tarefa3
 
 cd ..
